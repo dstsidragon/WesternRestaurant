@@ -242,10 +242,10 @@ a{
 .header{
     width: 1024px;
     padding:16px auto;
-    background-image: url(https://i.imgur.com/WMtrxTo.png);
+    background-image: url(https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
     background-repeat: no-repeat;
     height: 420px;
-    background-size: contain;
+    background-size: cover;
 }
 
 .bar-fixed{
@@ -341,7 +341,7 @@ a{
         }
     .header{
         width: 768px;
-        background-image: url(https://i.imgur.com/VqIlL3B.png) ;
+        background-image: url(https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) ;
         background-repeat: no-repeat;
         background-size: cover;
         padding-top: 200px;
@@ -376,7 +376,7 @@ a{
     }
 .header{
     width: 414px;
-    background-image: url(https://i.imgur.com/VqIlL3B.png) ;
+    background-image: url(https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) ;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
@@ -425,9 +425,6 @@ a{
         }
     .header{
         width: 375px;
-        background-image: url(https://i.imgur.com/VqIlL3B.png) ;
-        background-repeat: no-repeat;
-        background-size: cover;
         padding-top: 100px;
         background-position: -180px 0;  
     }
@@ -515,7 +512,7 @@ a{
 
 /*content*/
 .content{
-    background: #EFE9E7;
+    background: rgb(184, 253, 255);
     max-width: 100%;
 }
 /*餐廳資訊*/
@@ -523,7 +520,8 @@ a{
     margin-bottom: 30px;
 }
 .RestaurantIntroduction-header{
-    background-color: #EFE9E7;
+    background-color:rgb(184, 253, 255); 
+    /* #EFE9E7 */
     padding: 50px;
     height: 400px;
 }
@@ -541,7 +539,7 @@ a{
     margin-right: 35%;
     padding: 13px;
     text-align: center;
-    background-color: #EFE9E7;
+    background-color: rgb(184, 253, 255);
 }
 
 .RestaurantIntroduction-title p{
@@ -780,19 +778,19 @@ a{
 .ChefInformation-Title{
     font-family: 微軟正黑體;
     font-size: 20px;
-    color: #EFE9E7;
+    color: #FFFF;
     line-height: 32px;
     margin-top: 81px;
 }
 .ChefInformation-TitleEnglish{
     font-family: 微軟正黑體;
     font-size: 16px;
-    color: #EFE9E7;
+    color:#FFFF;
 }
 .ChefInformation-content{
     font-family: 微軟正黑體;
     font-size: 16px;
-    color: #EFE9E7;
+    color: #ffff;
     line-height: 24px;
     margin-top: 16px;
    
@@ -901,7 +899,7 @@ a{
 
 /*客戶評價*/
 .Guestreviews{
-    background:#EFE9E7;
+    background:rgb(184, 253, 255);
     padding: 5%;
     height: auto;
 }
@@ -911,7 +909,7 @@ a{
     font-size: 24px;
     color: #3D1101;
     text-align: center;
-    background:#EFE9E7;
+    backgroundrgb(184, 253, 255);
     font-weight: bold;
 }
 .Guestreviews-allList{
@@ -1096,7 +1094,7 @@ a{
 
 .ReservationInformation{
     padding: 50px 42px;
-    background: #FAFAFA;
+    background: rgb(184, 253, 255);
     
 }
 .ReservationInformation-Title{
@@ -1530,7 +1528,7 @@ a{
 /*footer*/
 .footer{
     height: 100px;
-    background:#EFE9E7;
+    background:#000000;
     padding: 50px 35px;
 
 
@@ -1543,7 +1541,7 @@ a{
 .footer-about h3{
     font-family: 微軟正黑體;
     font-size: 24px;
-    color: #3D1101;
+    color: #ffff;
     font-weight: bold;
     margin-bottom: 16px;
     
@@ -1551,7 +1549,7 @@ a{
 .footer-about p{
     font-family: 微軟正黑體;
     font-size: 16px;
-    color: #3D1101;  
+    color: #ffff;  
     font-weight: bold;
 }
 
@@ -1564,14 +1562,14 @@ a{
 .footer-contact h3{
     font-family: 微軟正黑體;
     font-size: 24px;
-    color: #3D1101;
+    color: #ffff;
     font-weight: bold;
     margin-bottom: 16px;
 }
 .footer-contact li{
     font-family: 微軟正黑體;
     font-size: 16px;
-    color: #3D1101;
+    color: #ffff;
     font-weight: bold;
     line-height: 24px;
 }
@@ -1583,7 +1581,7 @@ a{
 .footer-logo h1{
     font-family: 微軟正黑體;
     font-size: 49px;
-    color: #3D1101;
+    color: #ffff;
     letter-spacing: 0px;
     font-weight: bold;
     margin-bottom: 22px;
